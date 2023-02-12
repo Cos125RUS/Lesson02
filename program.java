@@ -13,4 +13,9 @@ public class program {
 
         return res;
     }
+    
+    private static boolean isPalindrome(String st) {
+        String st2 = String.valueOf((new StringBuilder(st)).reverse());
+        return st.equals(st2);
+    }
 }
